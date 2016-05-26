@@ -20,7 +20,7 @@ namespace COMP2007_S2016_Lesson3B
             SetActivePage();
         }
 
-        /* *
+        /**
          * THis method adds a css class of "active" to list items
          * related to navigation links of each page
          * 

@@ -13,5 +13,16 @@ namespace COMP2007_S2016_Lesson3B
         {
 
         }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            //you would replace this code with email process code
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }
