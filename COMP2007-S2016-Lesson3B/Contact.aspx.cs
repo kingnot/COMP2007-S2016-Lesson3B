@@ -20,9 +20,5 @@ namespace COMP2007_S2016_Lesson3B
             Response.Redirect("Default.aspx");
         }
 
-        protected void CancelButton_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Default.aspx");
-        }
     }
 }
